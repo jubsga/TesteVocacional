@@ -5,8 +5,7 @@ function Resposta({ resposta, setRespostaSelecionadaAtual, selecionado }) {
   
   if (selecionado) {
     cssClass += " selecionada";
-  } 
-
+  }
   return (
     <div
       className={cssClass}

@@ -8,8 +8,8 @@ import imgUx from "../../Img/ux.gif";
 
 import "./Resultado.css";
 
-function Resultado({ respostasSelecionadas, setPaginaAtual }) {
-  const [principalCarreira, setPrincipalCarreira] = useState();
+function Resultado({ respostasSelecionadas, setRespostasSelecionadas, setPaginaAtual }) {
+  const [carreiraPrincipal, setCarreiraPrincipal] = useState();
   const [outrasCarreiras, setOutrasCarreiras] = useState();
 
   useEffect(() => {
@@ -29,13 +29,17 @@ function Resultado({ respostasSelecionadas, setPaginaAtual }) {
   }, [respostasSelecionadas]);
 
   function criarResultado(json) {
-    setPrincipalCarreira(json.shift());
+    setCarreiraPrincipal(json.shift());
     setOutrasCarreiras(json);
   }
 
+  function reiniciarJogo(){
+    setRespostasSelecionadas();
+    setPaginaAtual("Perguntas");
+  }
   let imagemCarreira = "";
 
-  switch (principalCarreira?.carreira?.nome) {
+  switch (carreiraPrincipal?.carreira?.nome) {
     default:
     case "Banco de Dados":
       imagemCarreira = imgBd;
@@ -57,10 +61,10 @@ function Resultado({ respostasSelecionadas, setPaginaAtual }) {
   return (
     <div id="resultado">
       <h2>A área de T.I que mais combina com você é</h2>
-      <h1>{principalCarreira?.carreira?.nome}</h1>
+      <h1>{carreiraPrincipal?.carreira?.nome}</h1>
       <img src={imagemCarreira} alt="" />
       <div id="texto-carreira">
-        <p>{principalCarreira?.carreira?.descricao}</p>
+        <p>{carreiraPrincipal?.carreira?.descricao}</p>
       </div>
       <h2>Outros possíveis matches: </h2>
       <div id="outro-matches">
@@ -70,7 +74,7 @@ function Resultado({ respostasSelecionadas, setPaginaAtual }) {
           </h3>
         ))}
       </div>
-      <button onClick={()=>setPaginaAtual("Boas-vindas")}>Jogar Novamente</button>
+      <button onClick={()=>reiniciarJogo()}>Jogar Novamente</button>
     </div>
   );
 }

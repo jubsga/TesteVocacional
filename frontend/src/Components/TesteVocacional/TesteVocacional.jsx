@@ -41,6 +41,7 @@ function TesteVocacional() {
       {paginaAtual === FluxoDeTelas[2] && (
         <Resultado
           setPaginaAtual={setPaginaAtual}
+          setRespostasSelecionadas = {setRespostasSelecionadas}
           respostasSelecionadas={respostasSelecionadas}
         />
       )}

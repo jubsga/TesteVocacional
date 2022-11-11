@@ -12,10 +12,13 @@ function Perguntas({ perguntasDoBancoDeDados, setPaginaAtual, respostasSeleciona
       resposta: respostaSelecionadaAtual.id,
       carreira: respostaSelecionadaAtual.carreiraID
     });
+
     setRespostaSelecionadaAtual();
+
     if (perguntaAtual + 1 === perguntasDoBancoDeDados.length) {
       setPaginaAtual("Resultado");
     }
+
     setPerguntaAtual(perguntaAtual + 1);
   }
 
