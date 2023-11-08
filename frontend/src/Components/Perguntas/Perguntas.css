@@ -1,9 +1,11 @@
 #pergunta {
-    background-color: #8435de;
+    background-color: #005189;
+    ;
     border-radius: 1rem;
     padding: 2rem;
     width: 700px;
-    color:#ffffff !important
+    color:#ffffff !important;
+    margin: auto;
   }
   
   #pergunta p {

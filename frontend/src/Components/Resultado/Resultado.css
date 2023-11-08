@@ -1,6 +1,7 @@
 #resultado img {
   margin-bottom: 2rem;
   max-width: 450px;
+  margin-top: 1px;
 }
 
 #resultado button {

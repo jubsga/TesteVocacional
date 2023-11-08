@@ -1,5 +1,5 @@
 .resposta {
-  background-color: #3c0e70;
+  background-color: #00243C;
   border-radius: 0.5rem;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -17,6 +17,6 @@
 }
 
 .selecionada {
-  background-color: #0bfc03;
+  background-color: #158011;
   font-weight: bold;
 }

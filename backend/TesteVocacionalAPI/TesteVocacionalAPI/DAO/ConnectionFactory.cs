@@ -6,7 +6,7 @@ namespace TesteVocacionalAPI.DAO
     {
         public static MySqlConnection Create()
         {
-            string connectionString = "Server=localhost;Database=testeVocacional;Uid=root;Pwd=root;";
+            string connectionString = "Server=localhost;Database=TesteVocacional;Uid=root;Pwd=;";
             return new MySqlConnection(connectionString);
         }
     }

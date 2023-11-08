@@ -1,15 +1,17 @@
 import React from 'react'
-import BoasVindasImg from "../../Img/welcome.gif"
+import logo from "../../LogoBody.png";
 
 import "./BoasVindas.css";
 
 function BoasVindas({ setPaginaAtual }) {
     return (
         <div id="boas-vindas">
+          <img src={logo} alt="Iniciar" />
+          <div id='infos'>
           <h2>Seja bem-vindo</h2>
-          <img src={BoasVindasImg} alt="Iniciar" />
-          <p>Clique no botão para começar:</p>
+          <p>Descubra qual área da TI combina mais com você! Clique no botão abaixo para começar.</p>
           <button onClick={() => setPaginaAtual("Perguntas")}>Iniciar</button>
+          </div>
         </div>
       );
 }

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-import imgBack from "../../Img/back.gif";
-import imgBd from "../../Img/bd.gif";
-import imgFront from "../../Img/front.gif";
-import imgQa from "../../Img/qa.gif";
-import imgUx from "../../Img/ux.gif";
+import imgBack from "../../Img/back.png";
+import imgBd from "../../Img/bd.png";
+import imgFront from "../../Img/front.png";
+import imgQa from "../../Img/qa.png";
+import imgUx from "../../Img/ux.png";
 
 import "./Resultado.css";
 

@@ -3,6 +3,9 @@ import BoasVindas from "../BoasVindas/BoasVindas";
 import Perguntas from "../Perguntas/Perguntas";
 import Resultado from "../Resultado/Resultado";
 
+import "./TesteVocacional.css";
+import logo from "../../LogoBody.png";
+
 const FluxoDeTelas = ["Boas-vindas", "Perguntas", "Resultado"];
 
 function TesteVocacional() {
@@ -26,7 +29,9 @@ function TesteVocacional() {
 
   return (
     <div id="main">
-      <h1>De A a T.I!</h1>
+      <div id="head"><br /><br />
+      <img src={logo} alt="Logo" />
+      </div>
       {paginaAtual === FluxoDeTelas[0] && (
         <BoasVindas setPaginaAtual={setPaginaAtual} />
       )}

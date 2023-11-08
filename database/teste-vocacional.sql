@@ -23,11 +23,11 @@ CREATE TABLE Respostas(
 );
 
 INSERT INTO Carreiras VALUES 
-(default, 'Desenvolvedor BackEnd', 'O back-end é a área que armazena os dados sendo consumidos ou manipulados pelo aplicativos ou softwares. Quem configura e cuida da manutenção desses bancos de dados hoje é o DBA, e quem manipula essas informações no dia a dia é o desenvolvedor back-end.'),
-(default, 'Desenvolvedor FrontEnd', 'Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio do código uma interface gráfica e, normalmente, com as tecnologias base da Web: HTML, CSS e JavaScript.'),
-(default, 'User Experience (UX)', 'O profissional de UX tem como papel trabalhar toda a jornada do usuário, arquitetura da informação e demais pontos de contato entre plataforma e público, cuidando muito bem dos elementos que afetam a experiência do cliente e que possam influenciar as suas percepções, emoções e comportamentos.'),
-(default, 'Analista de Testes e Qualidade de Software', 'É o responsável pelo planejamento, execução e análise dos resultados da garantia da qualidade, assegurando que os produtos de trabalho e a execução dos processos pelos projetos de desenvolvimento de software estejam em conformidade com o Plano de Garantia da Qualidade, além de fornecer visibilidade para a equipe e gerência sobre esses processos e produtos de trabalho.'),
-(default, 'Banco de Dados', 'Este profissional tem papel estratégico numa organização. Sua função é manipular sistemas tecnológicos que permitam organizar, estruturar e distribuir as informações de uma empresa.Também é responsável pela segurança dessas informações. Por isso vem encontrando cada vez mais espaço no mercado de trabalho.');
+(default, 'Desenvolvedor BackEnd', 'O back-end é basicamente a parte funcional do site, que faz a conexão as informações guardadas no banco que dados e os pedidos que vem de um navegador.'),
+(default, 'Desenvolvedor FrontEnd', 'O front-end nada mais é do que a parte visual do site, aquilo que o usuário consegue interagir.'),
+(default, 'User Experience (UX)', 'O UX ou User Experience, é a área que agrupa vários elementos de uma aplicação relacionado a interação do usuário, e avalia como o user respondeu a aplicação, de forma negativa ou positiva.'),
+(default, 'Analista de Testes e Qualidade de Software', 'O analista de testes ou "tester" é o encarregado por identificar e definir os testes necessários para garantir a qualidade do produto do cliente, além de monitorar o processo de teste detalhadamente e cada resultado de cada ciclo, avaliando a qualidade da aplicação em geral.'),
+(default, 'Banco de Dados', 'Sua função é manipular sistemas tecnológicos que permitam organizar, estruturar e distribuir as informações de uma empresa.');
 
 INSERT INTO Perguntas (Texto) VALUES
 ('Você preferiria conhecer um(a):'),

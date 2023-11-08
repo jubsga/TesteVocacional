@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\Etec\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj": {}
+    "C:\\react\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj": {}
   },
   "projects": {
-    "C:\\repos\\Etec\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj": {
+    "C:\\react\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\Etec\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj",
+        "projectUniqueName": "C:\\react\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj",
         "projectName": "TesteVocacionalAPI",
-        "projectPath": "C:\\repos\\Etec\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj",
-        "packagesPath": "C:\\Users\\Niuco\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\Etec\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\obj\\",
+        "projectPath": "C:\\react\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\TesteVocacionalAPI.csproj",
+        "packagesPath": "C:\\Users\\J&M SYSTEM\\.nuget\\packages\\",
+        "outputPath": "C:\\react\\teste-vocacional\\backend\\TesteVocacionalAPI\\TesteVocacionalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Niuco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\J&M SYSTEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,11 +72,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
